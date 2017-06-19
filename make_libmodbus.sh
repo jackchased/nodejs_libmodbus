@@ -10,4 +10,4 @@ git reset --hard f935846
 # patch -c -p2 < ../mt.patch
 
 #./autogen.sh && ./configure --enable-static=yes --enable-shared=no && make
-./autogen.sh && ./configure --host=HOST && make
+./autogen.sh && ./configure --host=mipsel && make
