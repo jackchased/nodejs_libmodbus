@@ -37,10 +37,10 @@
                             '-Wall',
                         ],
                         'ldflags': [
-                            '../libmodbus/src/.libs/modbus.o',
-                            '../libmodbus/src/.libs/modbus-data.o',
-                            '../libmodbus/src/.libs/modbus-rtu.o',
-                            '../libmodbus/src/.libs/modbus-tcp.o',
+                            '../libmodbus/src/modbus.o',
+                            '../libmodbus/src/modbus-data.o',
+                            '../libmodbus/src/modbus-rtu.o',
+                            '../libmodbus/src/modbus-tcp.o',
                         ],
                         'include_dirs': [
                             './libmodbus/src/',
