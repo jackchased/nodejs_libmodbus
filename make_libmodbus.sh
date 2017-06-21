@@ -15,4 +15,7 @@ git reset --hard f935846
 rm -rf config.h.in
 cp $(pwd)/../../config.h.in ./
 
+rm -rf ./src/Makefile
+cp $(pwd)/../../Makefile ./src/
+
 make
