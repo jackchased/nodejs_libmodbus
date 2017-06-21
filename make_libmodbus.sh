@@ -12,10 +12,10 @@ git reset --hard f935846
 #./autogen.sh && ./configure --enable-static=yes --enable-shared=no && make
 ./autogen.sh && ./configure --host=mipsel
 
-#rm -rf config.h.in
-#cp $(pwd)/../../config.h.in ./
+rm -rf config.h.in
+cp $(pwd)/../../config.h.in ./
 
-#rm -rf ./src/Makefile
-#cp $(pwd)/../../Makefile ./src/
+rm -rf ./src/Makefile
+cp $(pwd)/../../Makefile ./src/
 
-#make
+make
